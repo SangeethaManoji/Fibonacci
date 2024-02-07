@@ -14,7 +14,7 @@ public class Fibonacci {
         System.out.print("Enter the position");
         int p = scanner.nextInt();
 
-        System.out.println("\nValue at the position is  " + fibonacci(p));  
+        System.out.println("\nValue at the position is  " + fibonacci(p-1));  
     }
 
     private static int fibonacci(int n) {
