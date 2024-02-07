@@ -11,7 +11,9 @@ public class Fibonacci {
             System.out.print(fibonacci(i) + " ");
           
         }
-        
+      
+
+        System.out.println("\nValue at 10th position " + fibonacci(9));  
     }
 
     private static int fibonacci(int n) {
