@@ -11,9 +11,10 @@ public class Fibonacci {
             System.out.print(fibonacci(i) + " ");
           
         }
-      
+        System.out.print("Enter the position");
+        int p = scanner.nextInt();
 
-        System.out.println("\nValue at 10th position " + fibonacci(9));  
+        System.out.println("\nValue at the position is  " + fibonacci(p));  
     }
 
     private static int fibonacci(int n) {
